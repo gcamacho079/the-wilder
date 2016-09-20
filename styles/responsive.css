@@ -1,0 +1,37 @@
+@media screen and (max-width: 660px) {
+  #wide-image {
+    display: none;
+  }
+
+  #mobile-image {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  /**************************
+  HEADING
+  ***************************/
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    width: 45%;
+  }
+
+  #mobile-image {
+    display:none;
+  }
+
+  #full-image {
+    display: none;
+  }
+
+  #gallery li {
+    width: 28.3333%;
+    margin: 2.5%;
+  }
+
+
+}
