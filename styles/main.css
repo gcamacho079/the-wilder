@@ -3,7 +3,8 @@ GENERAL
 ***************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+
 }
 
 ul {
@@ -11,6 +12,7 @@ ul {
 }
 
 #wrapper {
+  width: 85%;
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
@@ -36,12 +38,6 @@ header {
 
 }
 
-h1 {
-  font-family: 'Trade Winds', sans-serif;
-  font-weight: normal;
-  margin-top: 10px;
-  font-size: 1.6em;
-}
 
 #mobile-image {
   display: block;
@@ -51,9 +47,9 @@ h1 {
 
 #wide-image {
   display: none;
-  margin: 25px auto 10px;
-  width: 250px;
-  border-radius: 100%;
+  margin: 1em;
+  width: 200px;
+  border-radius: 10%;
 
 
 }
@@ -69,28 +65,37 @@ nav {
 }
 
 nav ul {
-  margin: 0 10px;
-  padding: 10px 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
-  padding: 10px 15px;
-}
-
-nav li {
-  display: inline-block;
+  display: block;
+  margin: 10px;
 }
 
 
+/**************************
+BODY
+***************************/
+
+h1 {
+  font-family: 'Creepster', cursive;
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+}
 
 /**************************
 PAGE: MAIN
 ***************************/
 
 #band-pic {
-  max-width: 300px;
+  max-width: 100%;
+  width: 300px;
   display: block;
-  margin: 0 auto 30px;
+  margin: 0 auto;
+  padding-top: 0.75em;
   border-radius: 30%;
 }
 
@@ -100,6 +105,8 @@ PAGE: MAIN
 PAGE: ABOUT
 ***************************/
 
+
+
 #gallery {
   margin: 0;
   padding: 0;
@@ -107,14 +114,19 @@ PAGE: ABOUT
 
 #gallery li {
   float: left;
-  width: 45%;
-  margin: 2.5%;
+  width: 90%;
+  margin: 1%;
+}
+
+#gallery li img {
+  border-radius: 5px;
 }
 
 #gallery li p {
   margin: 0;
   padding: 5%;
-  font-size: .8em;
+  font-size: 1em;
+  text-align: center;
 }
 
 /**************************
@@ -132,16 +144,15 @@ COLORS
 ***************************/
 
 body {
-  background: #EEE;
+  background: #eee;
 }
 header {
-  background: #222;
   text-align: center;
+  background-color: #222;
 }
 
-
-nav {
-  background: #222;
+p {
+  color: #000;
 }
 
 nav a, nav a:visited {
@@ -149,11 +160,11 @@ nav a, nav a:visited {
 }
 
 nav a:hover {
-  color: #000;
+  color: #00ff48;
 }
 
 h1 {
-  color: #FFF;
+  color: #000;
 }
 
 #gallery li {
@@ -166,7 +177,7 @@ h1 {
 }
 
 .fa:hover {
-  color: #888;
+  color: #aaa;
 }
 
 footer a, footer a:visited {
