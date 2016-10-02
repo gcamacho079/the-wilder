@@ -7,8 +7,8 @@
   ***************************/
 
   #wide-image {
-    display:inline-block;
-    float: left;
+    display:block;
+    margin: 0 auto;
   }
 
   #mobile-image {
@@ -31,22 +31,11 @@
     display: inline-block;
   }
 
-  nav li {
-    border-radius: 1em;
-  }
-
-
 
   /**************************
   COLORS
   ***************************/
 
-    nav li {
-      background-color: #fff;
-  }
-    nav a, nav a:visited {
-      color: #000;
-    }
 
 
 }
@@ -58,7 +47,7 @@
 
   #gallery li {
     float: left;
-    width: 28.3333%;
+    width: 45%;
     margin: 2.5%;
   }
 
